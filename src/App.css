@@ -1,0 +1,108 @@
+.header {
+  background-color: black;
+  padding: 10px; 
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  color: white; 
+  margin: 0; 
+}
+
+
+.read-more {
+  color: white; 
+  background-color: black; 
+  padding: 8px 16px; 
+  text-decoration: none; 
+  border-radius: 5px; 
+  display: inline-block; 
+}
+
+.read-more:hover {
+  background-color: #0fb528; 
+}
+
+.form-container{
+
+text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+.Add{
+  text-align: center;
+
+}
+
+.form-container {
+  max-width: 400px; 
+  margin: 0 auto; 
+}
+
+.form-row {
+  margin-bottom: 10px; 
+}
+
+label {
+  display: block;
+  margin-bottom: 5px; 
+}
+
+input {
+  width: 100%; 
+  padding: 8px; 
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #56c21d;
+}
+
+
+.bird-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bird-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; 
+}
+
+.bird-row div {
+  flex: 0 0 48%; 
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right {
+  margin-right: auto;
+}
+
+.Add {
+  text-decoration: none;
+  color: white;
+  background-color: #007BFF; 
+  padding: 10px 10px;
+  border-radius: 10px;
+}
